@@ -25,7 +25,7 @@ class QuizDatabaseOpenHelper(context: Context) : ManagedSQLiteOpenHelper(context
         private var instance: QuizDatabaseOpenHelper? = null
 
         /**
-         * Singletom getInstance method.
+         * Singleton getInstance method.
          * */
         @Synchronized
         fun getInstance(context: Context): QuizDatabaseOpenHelper {
